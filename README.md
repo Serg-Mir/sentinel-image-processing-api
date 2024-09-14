@@ -87,16 +87,6 @@ For test coverage report:
 pytest --cov=app tests/ --cov-report=xml
 ```
 
-### Code Formatting and Linting
-
-This project uses `black` for code formatting, `isort` for import sorting, and `flake8` for linting. To format and lint the code, run:
-
-```
-black .
-isort .
-flake8 .
-```
-
 ## Project Structure
 
 ```
@@ -131,6 +121,10 @@ sure your changes get checked for style and standards before committing them to 
     $ pip install pre-commit
 
     $ pre-commit install
+
+### Code Formatting and Linting
+
+This project uses `black` for code formatting, `mypy` for type checking, and `pre-commit` for managing hooks.
 
 
 ## License

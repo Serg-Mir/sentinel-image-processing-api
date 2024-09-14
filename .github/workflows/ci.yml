@@ -26,4 +26,4 @@ jobs:
     - name: Check formatting
       run: |
         pip install black
-        black --check .
+        black --line-length 88 --check .
