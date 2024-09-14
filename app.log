@@ -15,3 +15,7 @@
 2024-09-14 08:44:22,745 - httpx - INFO - HTTP Request: GET http://testserver/api/image "HTTP/1.1 200 OK"
 2024-09-14 08:44:24,185 - httpx - INFO - HTTP Request: GET http://testserver/api/image-with-color "HTTP/1.1 200 OK"
 2024-09-14 08:44:24,188 - httpx - INFO - HTTP Request: POST http://testserver/api/upload-image "HTTP/1.1 200 OK"
+2024-09-14 09:29:34,671 - httpx - INFO - HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2024-09-14 09:29:35,822 - httpx - INFO - HTTP Request: GET http://testserver/api/image "HTTP/1.1 200 OK"
+2024-09-14 09:29:37,054 - httpx - INFO - HTTP Request: GET http://testserver/api/image-with-color "HTTP/1.1 200 OK"
+2024-09-14 09:29:37,057 - httpx - INFO - HTTP Request: POST http://testserver/api/upload-image "HTTP/1.1 200 OK"

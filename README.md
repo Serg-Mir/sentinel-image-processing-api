@@ -108,6 +108,11 @@ sentinel-image-processing-api/
 │   ├── core/
 │   ├── services/
 │   └── utils/
+├── docs/
+│   ├── API_DOCUMENTATION.md
+│   ├── screenshot_endpoint1.png
+│   ├── screenshot_endpoint2.png
+│   └── screenshot_endpoint3.png
 ├── tests/
 ├── .env.example
 ├── .gitignore
