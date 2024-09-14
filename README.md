@@ -11,7 +11,7 @@ This FastAPI application provides endpoints to process Sentinel-2 imagery based 
   2. Get Sentinel image with main color analysis
   3. Upload and analyze image color
 
-Note: For detailed API documentation with example outputs, please see API Documentation.
+Note: For detailed API documentation with example outputs, please see [API Documentation](docs/API_DOCUMENTATION.md).
 
 
 ## Prerequisites
