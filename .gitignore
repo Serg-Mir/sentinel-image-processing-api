@@ -1,0 +1,8 @@
+# Basic registry for development local files and directories to be ignored by Git.
+# You might want to add more local things to be kept out of version control.
+.env
+.idea/
+*.pyc
+__pycache__
+.python-version
+.*.swp

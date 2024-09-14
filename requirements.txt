@@ -1,0 +1,9 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+sentinelhub==3.8.2
+Pillow==10.0.0
+numpy==1.25.2
+python-multipart==0.0.6
+pydantic==2.3.0
+pydantic-settings==2.0.3
+python-dotenv==1.0.0
