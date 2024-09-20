@@ -1,4 +1,5 @@
 # Sentinel Image Processing API
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/serg-mir/sentinel-image-processing-api/ci.yml?branch=main&style=for-the-badge)
 
 This FastAPI application provides endpoints to process Sentinel-2 imagery based on provided coordinates and analyze image colors.
 
