@@ -17,7 +17,7 @@ async def get_image(
         description="Bounding box coordinates (min_lon,min_lat,max_lon,max_lat)",
     )
 ):
-    """Endpoint 1: Show the Sentinel image as a FastAPI response."""
+    """Show the Sentinel image as a FastAPI response."""
     try:
         bbox = list(map(float, bbox.split(",")))
         image = get_sentinel_image(bbox)
@@ -34,7 +34,7 @@ async def get_image_with_color(
         description="Bounding box coordinates (min_lon,min_lat,max_lon,max_lat)",
     )
 ):
-    """Endpoint 2: Show the Sentinel image and print the main color name."""
+    """Show the Sentinel image and print the main color name."""
     try:
         bbox = list(map(float, bbox.split(",")))
         image = get_sentinel_image(bbox)
@@ -47,19 +47,9 @@ async def get_image_with_color(
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# @router.post("/upload-image")
-# async def upload_image(file: UploadFile = File(...)):
-#     """Endpoint 3: Upload an image and get its main color."""
-#     try:
-#         contents = await file.read()
-#         img = numpy_to_image(contents, from_bytes=True)
-#         color_name = get_main_color(img)
-#         return {"main_color": color_name}
-#     except Exception as e:
-#         raise HTTPException(status_code=500, detail=str(e))
 @router.post("/upload-image")
 async def upload_image(file: UploadFile = File(...)):
-    """Endpoint 3: Upload an image and get its main color."""
+    """Upload an image and get its main color."""
     try:
         contents = await file.read()
         img = Image.open(BytesIO(contents))
